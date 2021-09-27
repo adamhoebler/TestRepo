@@ -9,6 +9,7 @@ public class Queue <Item> {
     private Node first; //Link to the least recently added node
     private Node last; //Link to the most recently added node
     private int N; //Counter
+    private int q;
 
     private class Node{ //Nested class to define what a node is
         Item item; //Every node instance has an item of type item
